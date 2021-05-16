@@ -1,14 +1,5 @@
 import Head from "next/head";
-import tw from "tailwind-styled-components";
-
-const Container = tw.p`
-    flex
-    items-center
-    justify-center
-    flex-col
-    w-full
-    bg-green-500
-`;
+import { H1, H2 } from "../components/custom";
 
 export default function Home() {
   return (
@@ -26,14 +17,14 @@ export default function Home() {
           </a>
         </h1>
 
-        <Container className="mt-3 text-2xl">
+        <p className="mt-3 text-2xl">
           Get started by editing{" "}
-          <code className="p-3 font-mono text-lg  rounded-md">
+          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
             pages/index.js
           </code>
-        </Container>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full bg-indigo-100">
+        </p>
+        <H1 externalClasses="animate-moveInRight">Get started by editing</H1>
+        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
             href="https://nextjs.org/docs"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
@@ -43,7 +34,9 @@ export default function Home() {
               Find in-depth information about Next.js features and API.
             </p>
           </a>
-
+          <H2 externalClasses="animate-moveInLeft">
+            Find in-depth information about Next.js features and API.
+          </H2>
           <a
             href="https://nextjs.org/learn"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"

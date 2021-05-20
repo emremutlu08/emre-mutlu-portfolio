@@ -4,7 +4,7 @@ export const H1 = (props) => {
   return (
     <h1
       className={
-        "bg-clip-text text-transparent text-5xl bg-white  font-bold " +
+        "bg-clip-text text-transparent text-7xl bg-white font-black " +
         externalClasses
       }
     >

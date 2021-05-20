@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen  overflow-hidden">
       <header
-        className="flex flex-col items-center justify-center flex-1 px-20 text-center bg-hero-background bg-top bg-cover "
+        className="flex flex-col items-center justify-center flex-1 w-full text-center bg-hero-background bg-top bg-contain bg-no-repeat"
         style={{ clipPath: "polygon(0 0, 0 100%, 100% 85%, 100% 0)" }}
       >
         <H1 externalClasses="animate-moveInRight">EMRE MUTLU</H1>

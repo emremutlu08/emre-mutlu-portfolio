@@ -7,6 +7,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "hero-background":
           "linear-gradient(to right bottom,rgba(126,138, 151, 0.8), rgba(48, 71, 94, 0.1)),url('/images/myself/emre_mutlu_odtu.jpg')",
+        "hero-filler":
+          "linear-gradient(to right bottom,rgba(126,138, 151, 0.8), rgba(48, 71, 94, 0.1))",
         "footer-texture": "url('/img/footer-texture.png')",
       }),
       keyframes: {

@@ -5,20 +5,31 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
     "@tailwindcss/jit": "^0.1.18",
     "next": "latest",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
     "@types/node": "^15.3.1",
     "@types/react": "^17.0.6",
-    "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.10",
-    "tailwindcss": "^2.1.1",
+    "autoprefixer": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^2.2.0-canary.9",
     "typescript": "^4.2.4"
   }
 }

@@ -1,5 +1,4 @@
-// If you want to use other PostCSS plugins, see the following:
-// https://tailwindcss.com/docs/using-with-preprocessors
+// Tailwind JIT Compiler Config
 module.exports = {
   plugins: {
     "@tailwindcss/jit": {},
